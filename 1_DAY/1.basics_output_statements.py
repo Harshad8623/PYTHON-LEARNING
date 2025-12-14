@@ -42,7 +42,7 @@ print(2 ** 3)
 print(10 % 3)
 print(15 - 7)
 print(10 // 3)
-print((10 + 5) * 2)
+print("(10 + 5)" * 2)
 print(3.5 + 2.1)
 print(7.2 * 3.0)
 print(9.0 / 2.0)
@@ -183,6 +183,14 @@ print("2025", "11", "18", sep="/")
 print("2025", "11", "18", sep=".")
 print("End and sep parameters demonstrated.")
 
+print("Hello", "world", sep="-", end="***")
+print("Welcome to Python!")
+
+print("Hello", "world", sep="-")
+print("Welcome to Python!")
+
+print("Hello", "world", end="-")
+print("Welcome to Python!")
 
 str6 = " Hello,    World!"
 str9 = "   " # String with only spaces

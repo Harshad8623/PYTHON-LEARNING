@@ -1,3 +1,18 @@
+# A string is a sequence of characters used to store text.
+# Strings are immutable → once created, they cannot be changed.
+
+
+# Single quotes
+str1 = 'Harshad'
+# Double quotes
+str2 = "Dhuppe"
+# Triple quotes (multiline strings / docstrings)
+str3 = '''This is a
+multi-line string.'''
+str4 = """Another
+multi-line string example."""
+
+
 name = "Harshad"
 a = ""       # Empty string
 b = ' '      # String with a single space
@@ -5,7 +20,7 @@ c = 'Hello, World!'  # String with text
 
 
 
-
+# Accessing Characters (Indexing)
 print(name)
 print(name[0])  # First character
 print(name[-1]) # Last character
@@ -23,8 +38,57 @@ print(len(name)) # Length of string
 print("String operations completed.")
 
 
+# Strings are Immutable ⚠️
+s = "Hello"
+# s[0] = 'h' ❌ ERROR - Strings are immutable
+# To modify a string, create a new one
+s = 'h' + s[1:]  # Create a new string
+print("Modified string:", s)
 
 
+
+# String Concatenation & Repetition
+a = "Hello"
+b = "World"
+print(a + " " + b)  # Hello World
+print(a * 3)        # HelloHelloHello
+print("Concatenation and repetition done.")
+
+
+
+
+#  Raw Strings (r"") - Used to ignore escape sequences (paths, regex).
+path = r"C:\Users\Harshad\Docs"
+print(path)
+print("Raw string example completed.")
+
+
+
+
+# Formatted Strings (f-strings)
+name = "Harshad"
+age = 20
+print(f"My name is {name} and I am {age} years old")
+print(f"Sum = {10 + 20}")
+print("Formatted string example completed.")
+
+
+
+# Split & Join
+sentence = "Hello World     from Python"
+words = sentence.split(" ")  # Split by space
+print(words)
+joined = "-".join(words)     # Join with hyphen
+joined = ' '.join(words)     # Join with space
+
+print(joined)
+print("Split and join example completed.")
+
+
+
+
+# Iterating Through Strings
+name = "Harshad"
 for char in name:
     print(char)
 print("String iteration completed.")
@@ -171,3 +235,6 @@ print(str3.split('s')) # Split string by 's'
 
 str4 = "  Leading And Arailing Spaces   "
 str5 = str4.capitalize()
+
+str6 = "HeLLo WoRLD"
+print(str6.center(50,'*'))
