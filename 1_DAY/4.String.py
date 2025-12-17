@@ -237,4 +237,17 @@ str4 = "  Leading And Arailing Spaces   "
 str5 = str4.capitalize()
 
 str6 = "HeLLo WoRLD"
-print(str6.center(50,'*'))
+print(str6.center(50,'*')) # Center string with '*' padding
+print(str6.zfill(50)) # Pad string with zeros to width 50
+print(str6.swapcase()) # Swap case of characters
+print(str6.title()) # Title case
+print("Final string methods examples completed.")
+
+
+
+str7 = "Data-Science-Is-Fun"
+print(str7.partition('-')) # Partition string at first '-'
+print(str7.rpartition('-')) # Partition string at last '-'
+print("Data-Science-Is-Fun".splitlines()) # Split string at line breaks
+print("Data-Science-Is-Fun".encode()) # Encode string to bytes
+print("All string method examples completed.")

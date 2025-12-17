@@ -183,13 +183,13 @@ print("2025", "11", "18", sep="/")
 print("2025", "11", "18", sep=".")
 print("End and sep parameters demonstrated.")
 
-print("Hello", "world", sep="-", end="***")
+print("Hello", "world", sep="-", end="***")  # CUSTOM SEPARATOR AND ENDING
 print("Welcome to Python!")
 
-print("Hello", "world", sep="-")
+print("Hello", "world", sep="-")  # CUSTOM SEPARATOR
 print("Welcome to Python!")
 
-print("Hello", "world", end="-")
+print("Hello", "world", end="-")  # CUSTOM ENDING 
 print("Welcome to Python!")
 
 str6 = " Hello,    World!"
