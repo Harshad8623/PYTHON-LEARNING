@@ -12,13 +12,13 @@ print("Raw string example: C:\\Users\\Name")
 print("Raw string example: C:\ Users\ Name")   # THIS WORKS BUT THE FOLLOWING WILL NOT WORK
 # print("Raw string example: C:\Users\Name")   # THIS WILL CAUSE AN ERROR DUE TO UNRECOGNIZED ESCAPE SEQUENCE
 print("Raw string example: C:\\ Users\\ Name") # THIS WORKS PRINT ONLY ONE / NOT TWO //
-str1 = """"
+str1 = """
 "hejejj" 'rrwr'
 """
 print(str1)
 
 
-print(r"Raw string with escape sequences: \n \t \\") # THIS WILL PRINT AS IT IS WITHOUT INTERPRETING \n \t \\
+print(R"Raw string with escape sequences: \n \t \\") # THIS WILL PRINT AS IT IS WITHOUT INTERPRETING \n \t \\
 print("Multiline string example:\nThis is line one.\nThis is line two.")
 print("""This is a multiline string using triple quotes.
 It can span multiple lines.""")
