@@ -91,7 +91,7 @@ print("Concatenation completed.")
 print("Thank you for using the concatenation script.")
 
 
-print("Hello", "World")
+print("Hello","World")
 print("Sum is", 10+20)
 print("Name:","Harshad","Roll:", 21)
 print("Values:", 10, 3.14, True, None)

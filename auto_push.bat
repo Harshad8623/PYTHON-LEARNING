@@ -1,5 +1,5 @@
 @echo off
-cd /d "C:\Users\harshad Dhuppe\30 DAYS OF PYTHON LEARNING"
+cd /d "C:\Users\harshad Dhuppe\PYTHON LEARNING"
 
 git add .
 git commit -m "Auto-update: %date% %time%" --allow-empty
