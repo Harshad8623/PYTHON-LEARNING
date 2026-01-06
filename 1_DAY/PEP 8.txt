@@ -1,0 +1,74 @@
+🟢 What is PEP 8?
+PEP 8 is the official style guide for writing Python code.
+It tells you how your Python code should look so it’s clean, readable, and consistent across projects.
+
+
+Think of it as:
+Good manners for Python programming.
+
+
+🟣 What does “PEP” mean?
+PEP = Python Enhancement Proposal
+It’s a document that proposes standards or improvements for Python.
+So PEP 8 = Enhancement Proposal number 8, written originally by Guido van Rossum (Python’s creator) + others.
+
+
+🟡 Why does PEP 8 exist?
+Because:
+code is read way more than it’s written
+Python believes in readability
+consistent style helps teams collaborate
+reduces bugs and confusion
+
+
+🟦 What does PEP 8 cover?
+Some key rules:
+✔ Indentation
+Use 4 spaces, never tabs.
+✔ Maximum line length
+79 characters per line (99 for comments/docstrings in modern usage).
+✔ Blank lines
+Separate classes and functions visually.
+✔ Imports rules
+One import per line
+Imports at top of file
+Order: standard libs → third-party → local
+✔ Naming Conventions
+snake_case for variables/functions
+PascalCase for classes
+UPPER_CASE for constants
+✔ Whitespace rules
+No unnecessary spaces inside parentheses or around =
+One space around operators (a + b, not a+b)
+✔ Comments & Docstrings
+Clear, meaningful
+English preferred
+Use """ for docstrings
+✔ Avoid complicated one-liners
+Readable > clever.
+
+
+🟥 Example of BAD code (PEP 8 violation)
+def Add(x,y):print(x+y)
+
+
+🟩 Example of GOOD code (PEP 8 compliant)
+def add(x, y):
+    """Return sum of two numbers."""
+    print(x + y)
+
+
+🧠 How interviewers may ask about PEP 8
+Sample questions:
+What is PEP 8?
+Why is PEP 8 important?
+How many spaces are recommended for indentation?
+Which naming style is used for variables?
+What’s the max line length?
+Sometimes they even ask:
+Is PEP 8 enforced by Python?
+Answer: No — it’s a guideline, not a rule, but good companies expect it.
+
+
+🏁 Quick one-liner definition
+PEP 8 is Python’s official coding style guide that promotes readability and consistency.

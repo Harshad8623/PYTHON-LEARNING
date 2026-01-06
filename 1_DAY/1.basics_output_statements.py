@@ -18,7 +18,7 @@ str1 = """
 print(str1)
 
 
-print(R"Raw string with escape sequences: \n \t \\") # THIS WILL PRINT AS IT IS WITHOUT INTERPRETING \n \t \\
+print(r"Raw string with escape sequences: \n \t \\") # THIS WILL PRINT AS IT IS WITHOUT INTERPRETING \n \t \\
 print("Multiline string example:\nThis is line one.\nThis is line two.")
 print("""This is a multiline string using triple quotes.
 It can span multiple lines.""")
