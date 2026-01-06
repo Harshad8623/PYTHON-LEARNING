@@ -75,7 +75,7 @@ print("After swapping - x:", x, "y:", y)
 
 # Constants (by convention, use uppercase variable names)
 PI = 3.14159
-GRAVITY = 9.81  
+GRAVITY = 9.8  
 print("Value of PI:", PI)
 print("Value of GRAVITY:", GRAVITY)
 # Note: Python does not have built-in constant types,   
