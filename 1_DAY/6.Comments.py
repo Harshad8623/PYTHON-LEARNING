@@ -3,10 +3,9 @@
 
 """
 They help explain  :
-what code does
-why something is written
-logic, warnings, TODOs
-They don’t affect execution.
+. what code does
+. why something is written logic, warnings, TODOs
+. They don’t affect execution.
 """
 # Think of them like sticky notes in your code.
 
