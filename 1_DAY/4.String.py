@@ -10,7 +10,7 @@ str2 = "Dhuppe"
 str3 = '''This is a
 multi-line string.'''
 str4 = """Another
-multi-line string example."""
+multi-line string example.  """
 
 
 name = "Harshad"
