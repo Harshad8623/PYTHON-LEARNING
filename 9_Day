@@ -1,1 +1,40 @@
+'Link : https://www.codewars.com/kata/55cbd4ba903825f7970000f5/python'
+# Grade book
 
+def get_grade(s1, s2, s3):
+    score = (s1 + s2 + s3) / 3
+    if 90 <= score <= 100:
+        return 'A'
+    elif 80 <= score < 90:
+        return 'B'
+    elif 70 <= score < 80:
+        return 'C'
+    elif 60 <= score < 70:
+        return 'D'
+    else:
+        return 'F'
+
+
+
+
+def get_grade(s1, s2, s3):
+    mean = sum([s1,s2,s3])/3
+    if mean>=90: return 'A'
+    if mean>=80: return 'B'
+    if mean>=70: return 'C'
+    if mean>=60: return 'D'
+    return 'F'
+
+
+
+
+def get_grade(*scores):
+    grades = {
+        10: 'A',
+        9: 'A',
+        8: 'B',
+        7: 'C',
+        6: 'D',
+    }
+    mean = sum(scores) / len(scores)
+    return grades.get(mean // 10, 'F')
