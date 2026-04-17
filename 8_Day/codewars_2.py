@@ -2,7 +2,7 @@
 # Sum without highest and lowest number
 
 def sum_array(arr):
-    if arr is None or len(arr) <= 3:
+    if arr is None or len(arr) < 3:
         return 0
     
     return sum(arr) - max(arr) - min(arr)
@@ -11,7 +11,7 @@ def sum_array(arr):
 
 # Alternative (Sorting approach) this is Also correct, but slightly slower (sorting)
 def sum_array(arr):
-    if arr is None or len(arr) <= 1:
+    if arr is None or len(arr) < 3:
         return 0
     
     arr = sorted(arr)
@@ -28,5 +28,3 @@ def sum_array(arr):
 
 def sum_array(arr):
     return sum(arr) - min(arr) - max(arr) if arr and len(arr) > 1 else 0
-
-print(sum_array([1,2,3]))
