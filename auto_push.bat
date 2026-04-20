@@ -17,6 +17,10 @@ if %errorlevel%==0 (
 set msg=Auto-update on %date% at %time%
 git commit -m "%msg%"
 
+echo Pulling latest changes...
+git pull origin main --rebase
+
+echo Pushing to GitHub...
 git push origin main
 
 echo ==============================
