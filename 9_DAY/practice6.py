@@ -7,14 +7,3 @@ def make_readable(seconds):
     secs = seconds % 60
     
     return f"{hours:02d}:{minutes:02d}:{secs:02d}"
-
-a = 'Hello\nWorld'
-print(a) # Output:
-# Hello
-# World
-n = 5
-print(f"The value of n is: {n}") # Output: The value of n is
-a = r'Hello\nWorld'
-print(a) # Output: Hello\nWorld
-link = r"https//001f\\7/train/python"
-print(link)

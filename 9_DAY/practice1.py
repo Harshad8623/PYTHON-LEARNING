@@ -5,7 +5,6 @@ dict2 = {'b': 3, 'c': 4}
 
 print(dict1 | dict2)  # Output: {'a': 1, 'b': 3, 'c': 4}
 print({**dict1, **dict2})  # Output: {'a': 1, 'b': 3, 'c': 4}
-print(dict1 + dict2)  # Output: {'a': 1, 'b': 3, 'c': 4}
 
 
 
